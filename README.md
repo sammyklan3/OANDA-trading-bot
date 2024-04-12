@@ -18,13 +18,49 @@ Before running the trading bot, make sure you have the following:
     git clone https://github.com/your-username/trading-bot.git
     ```
 
-2. Install the required dependencies:
+2. Navigate to the project directory:
+
+    ```shell
+    cd trading-bot
+    ```
+
+3. **Set up a virtual environment (optional but recommended):**
+
+    If you prefer to work within a virtual environment (which is highly recommended), follow these steps:
+
+    - Install `virtualenv` (if not already installed):
+
+        ```shell
+        pip install virtualenv
+        ```
+
+    - Create a new virtual environment inside the project directory:
+
+        ```shell
+        virtualenv venv
+        ```
+
+    - Activate the virtual environment:
+
+        **For Windows:**
+
+        ```shell
+        venv\Scripts\activate
+        ```
+
+        **For macOS and Linux:**
+
+        ```shell
+        source venv/bin/activate
+        ```
+
+4. Install the required dependencies:
 
     ```shell
     pip install -r requirements.txt
     ```
 
-3. Create a `config.py` file in the root directory of the project and add your Oanda API access token and account ID:
+5. Create a `config.py` file in the root directory of the project and add your Oanda API access token and account ID:
 
     ```python
     # config.py
@@ -36,3 +72,6 @@ Before running the trading bot, make sure you have the following:
 ## Usage
 
 To run the trading bot, execute the following command:
+
+```shell
+python trading_bot.py
