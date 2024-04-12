@@ -74,4 +74,4 @@ Before running the trading bot, make sure you have the following:
 To run the trading bot, execute the following command:
 
 ```shell
-python trading_bot.ipynb
+python TradingBotOanda.ipynb
