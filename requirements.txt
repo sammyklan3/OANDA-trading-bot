@@ -1,0 +1,5 @@
+yfinance
+pandas
+oandapyV20
+apscheduler
+oanda_candles
